@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        Integer [] array1 = {1, 2, 4, 4, 2, 3, 4, 1, 7};//searchArray;
+        Integer [] array1 = {1, 2, 4, 4, 2, 3, 4, 1, 7};//searchArray
         Integer[] array3 = searchArray(array1);
 
         for (int i = 0; i < array3.length; i++) {

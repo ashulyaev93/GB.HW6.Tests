@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 public class ArrayTest {
 
+    //searchArray;
     @Test
     public void testAdd() {
         Integer [] array1 = {1, 2, 4, 4, 2, 3, 4, 1, 7};
@@ -31,6 +32,7 @@ public class ArrayTest {
         assertEquals(needArray, array);
     }
 
+    //searchOneAndFour;
     @Test
     public void testAdd4() {
         Integer [] array = {1, 1, 4, 4, 4};
